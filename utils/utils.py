@@ -7,6 +7,7 @@ from sklearn.metrics import (f1_score,
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import os
 
 def eval_metrics(y, t, threshold=0.5):
     t = t.get_label()
