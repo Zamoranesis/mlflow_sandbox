@@ -3,5 +3,5 @@ __pycache__/
 # DotEnv configuration
 .env
 
-# exclude data from source control by default
+# exclude mlflow artifacts from source control by default
 /mlruns/
